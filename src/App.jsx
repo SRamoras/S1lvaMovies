@@ -1,7 +1,7 @@
 // App.jsx
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import RouterComponent from './RouterComponent'; // Certifique-se de criar este componente
+import RouterComponent from './RouterComponent';
 
 function App() {
   return (
