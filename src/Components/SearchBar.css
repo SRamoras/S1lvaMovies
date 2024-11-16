@@ -1,0 +1,45 @@
+/* Contêiner principal da barra de pesquisa */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 300px; /* Definir largura máxima */
+  position: relative;
+  margin-top: 10px;
+}
+
+/* Ícone de lupa antes do input */
+.search-icon {
+  position: absolute;
+  left: 10px; /* Espaçamento à esquerda */
+  font-size: 20px;
+  color: #8e8e8e; /* Cor do ícone */
+  pointer-events: none; /* Ícone não interfere nas ações do input */
+}
+
+/* Estilo da barra de pesquisa */
+.search-bar {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Espaço para o ícone na esquerda */
+  font-size: 16px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: #8e8e8e;
+  outline: none;
+  background-color: #333; /* Fundo branco */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de linha inferior colorida quando em foco */
+.search-bar:focus {
+  border-bottom: 2px solid #ffdd57; /* Linha inferior colorida */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leve sombra para destaque */
+}
+.search-bar::placeholder {
+  color: #8e8e8e; /* Cor preta para o placeholder */
+
+}
+/* Linha inferior com outra cor após o clique */
+.search-bar:active {
+  border-bottom: 2px solid #ff6347;
+}

@@ -1,0 +1,25 @@
+/* Estilos globais */
+
+/* Ocultar a barra de rolagem por padrão */
+::-webkit-scrollbar {
+    width: 10px;
+    opacity: 0;
+    transition: opacity 0.3s, width 0.3s;
+}
+
+/* Mostrar a barra de rolagem quando o body tem a classe 'scrolling' */
+body.scrolling ::-webkit-scrollbar {
+    opacity: 1;
+    width: 10px;
+}
+
+/* Estilizar o thumb da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(104, 104, 104);
+    border-radius: 10px;
+}
+
+/* Estilizar o track da barra de rolagem */
+::-webkit-scrollbar-track {
+    background: transparent;
+}

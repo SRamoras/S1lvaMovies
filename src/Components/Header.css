@@ -1,0 +1,261 @@
+header {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; /* Separar os itens no header */
+    align-items: center;
+    font-weight: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(15px);
+    z-index: 10000;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #000;
+    background-image:linear-gradient(180deg,#000,transparent);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+}
+  
+nav ul li {
+  position: relative;
+  margin: 0 10px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li span.material-symbols-outlined {
+  font-size: 20px;
+  margin-right: 8px;
+  color: #fff;
+  transition: color 0.3s ease; /* Transição para a cor do ícone */
+}
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Efeito de sublinhado animado */
+.sublinhado::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #fff; /* Cor do sublinhado */
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease; /* Animação de expansão */
+}
+
+nav ul li:hover::after {
+  width: 100%; /* Expande o sublinhado ao passar o mouse */
+}
+
+nav ul li:hover a {
+  color: #fff; /* Muda a cor do texto ao passar o mouse */
+}
+
+nav ul li:hover span.material-symbols-outlined {
+  color: #fff; /* Muda a cor do ícone ao passar o mouse */
+}
+
+/*   
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+  }
+  
+  .search-bar {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    box-shadow: 0px 0px 8px rgba(255, 221, 87, 0.8);
+  } */
+  
+
+  .search-bar-header-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(31, 31, 31, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  .search-bar-header-button .material-symbols-outlined {
+    font-size: 24px;
+    color: #fff;
+  }
+
+.search-bar-header-button:hover{
+  background-color:rgb(17, 17, 17) ;
+}
+
+
+/* Contêiner principal */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+ 
+  color: inherit;
+  text-decoration: none;
+}
+.lupa{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo-name{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.sub-li {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.logo-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff; /* Definindo a cor do texto */
+  text-decoration: none; /* Remove qualquer sublinhado */
+  transition: none; /* Remove qualquer efeito de transição */
+}
+
+.logo-name:hover {
+  text-decoration: none; /* Reinforce que não haverá sublinhado no hover */
+  color: #fff; /* Mantém a cor ao passar o mouse */
+}
+
+.nav-link, .nav-link:hover {
+  text-decoration: none; /* Remove sublinhado */
+  color: #fff; /* Cor branca fixa */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categories-menu {
+  margin-top: 0; /* Reduz o espaço entre o menu e o link */
+  position: absolute;
+
+  background: rgb(31,31,31);
+  background: linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(31,31,31,1) 60%, rgba(0,0,0,1) 100%); 
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  top: 100%; /* Posiciona abaixo do item do menu */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  min-height: 250px;
+  overflow-y: auto;
+  z-index: 10;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+.categories-title {
+  color: #ffdd57; /* Cor do texto amarelo dourado */
+  text-align: left; /* Alinhamento do texto à esquerda */
+  padding-left: 0px; /* Espaço em torno do texto */
+  padding-bottom: 10px; /* Espaço entre o título e os itens */
+  padding-top:10px;
+  margin-bottom: 20px; /* Espaço entre o título e os itens */
+  position: relative;
+  top: 10px; /* Posição ligeiramente elevada dentro do menu */
+  left: 0;
+  width: 85%; /* Ocupa a largura total do menu */
+  font-size: 17px; /* Tamanho de fonte adequado para legibilidade */
+  border-bottom: 1px solid rgb(255, 255, 255); /* Linha sutil de separação */
+}.category-item {
+  color: white; /* Cor do texto */
+  padding: 5px 0px; /* Espaço em torno do texto */
+  flex: 0 0 40%; /* Ocupa exatamente 40% da linha */
+  margin: 5px; /* Espaço entre os itens */
+  text-align: left; /* Alinha o texto à esquerda */
+  box-sizing: border-box; /* Inclui padding e border no cálculo de largura/altura */
+  font-size: 14px; /* Tamanho da fonte para legibilidade */
+  text-decoration: none; /* Remove qualquer sublinhado padrão */
+  display: block; /* Garante que o link ocupe toda a área clicável */
+  transition: text-decoration-color 0.3s ease; /* Transição suave para cor do sublinhado */
+}
+
+
+
+.category-item:hover {
+  text-decoration: underline; /* Adiciona sublinhado apenas no hover */
+  text-decoration-color: #fff; /* Cor do sublinhado */
+}
+

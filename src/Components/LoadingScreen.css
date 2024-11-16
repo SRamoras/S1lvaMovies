@@ -1,0 +1,25 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 1); /* fundo semi-transparente */
+    z-index: 990000099; /* assegura que fica na frente de outros elementos */
+  }
+  
+  .loading-spinner {
+    width: 200px; /* tamanho do SVG */
+    height: 200px; /* tamanho do SVG */
+    margin-bottom: 20px; /* espaço entre a animação e o título */
+  }
+  
+  .loading-title {
+    color: white; /* cor do texto */
+    font-size: 24px; /* tamanho do texto */
+  }
+  
