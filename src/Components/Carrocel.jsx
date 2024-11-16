@@ -64,7 +64,7 @@ const Carrocel = ({ data, categoria, titulo }) => {
   };
 
   const handleClickMovie = (item) => {
-    navigate(`/${item.tipo}/${item.id}`);
+    navigate(`/S1lvaMovies/${item.tipo}/${item.id}`);
   };
 
   const goToPosition = (index) => {
@@ -106,27 +106,25 @@ const Carrocel = ({ data, categoria, titulo }) => {
         </div>
       </div>
       <div className="movie-carousel" ref={scrollRef}>
-      {filmes.map((item, index) => (
-  <a href={`/${item.tipo}/${item.id}`} key={index} className="movie-card">
-    <div className="movie-image-container">
-      <img src={item.imagem} alt={item.titulo} />
-      <div className="movie-quality-tag">{item.quality}</div>
-      <div className="movie-date-tag">{item.date}</div>
-      <div className="movie-overlay">
-        <span className="material-symbols-outlined video-icon">play_circle</span>
-      </div>
-    </div>
-    <div className="movie-info">
-      <h3>{item.titulo}</h3>
-      <div className="movie-stars">{renderStars(item.rate)}</div>
-    </div>
-  </a>
-))}
-
+        {filmes.map((item, index) => (
+          <a href={`/S1lvaMovies/${item.tipo}/${item.id}`} key={index} className="movie-card">
+            <div className="movie-image-container">
+              <img src={item.imagem} alt={item.titulo} />
+              <div className="movie-quality-tag">{item.quality}</div>
+              <div className="movie-date-tag">{item.date}</div>
+              <div className="movie-overlay">
+                <span className="material-symbols-outlined video-icon">play_circle</span>
+              </div>
+            </div>
+            <div className="movie-info">
+              <h3>{item.titulo}</h3>
+              <div className="movie-stars">{renderStars(item.rate)}</div>
+            </div>
+          </a>
+        ))}
       </div>
     </div>
   );
-  
 };
 
 export default Carrocel;

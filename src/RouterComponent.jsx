@@ -27,18 +27,18 @@ function RouterComponent() {
 
     return (
         <>
-        
-            <Routes>
-                <Route path="/" element={<MainLayout><Home /></MainLayout>} />
-                <Route path="/search" element={<MainLayout><SearchResults /></MainLayout>} />
-                <Route path="/movies" element={<MainLayout><Movies /></MainLayout>} />
-                <Route path="/series" element={<MainLayout><Series /></MainLayout>} />
-                <Route path="/gender" element={<MainLayout><Gender /></MainLayout>} />
-                <Route path="/random" element={<MainLayout><Random /></MainLayout>} />
-                <Route path="/movies/:id" element={<MainLayout><Details /></MainLayout>} />
-                <Route path="/series/:id" element={<MainLayout><Details /></MainLayout>} />
-                <Route path="/animes/:id" element={<MainLayout><Details /></MainLayout>} />
-            </Routes>
+        <Routes>
+  <Route path="/" element={<MainLayout><Home /></MainLayout>} />
+  <Route path="/search" element={<MainLayout><SearchResults /></MainLayout>} />
+  <Route path="/movies" element={<MainLayout><Movies /></MainLayout>} />
+  <Route path="/series" element={<MainLayout><Series /></MainLayout>} />
+  <Route path="/gender" element={<MainLayout><Gender /></MainLayout>} />
+  <Route path="/random" element={<MainLayout><Random /></MainLayout>} />
+  <Route path="/movies/:id" element={<MainLayout><Details /></MainLayout>} />
+  <Route path="/series/:id" element={<MainLayout><Details /></MainLayout>} />
+  <Route path="/animes/:id" element={<MainLayout><Details /></MainLayout>} />
+</Routes>
+
         </>
     );
 }

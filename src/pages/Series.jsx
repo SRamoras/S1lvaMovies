@@ -4,7 +4,7 @@ import Carrocel from '../Components/Carrocel';
 import seriesData from '../../public/Series.json';
 import animeData from '../../public/Animes.json';
 import Trailer from '../Components/Openning';
-import video2 from '../Assets/video2.mp4';
+import video2 from '../../Public/Assets/video2.mp4';
 const SeriesByCategory = () => {
   // Extraia categorias únicas do JSON
   const categoriasUnicas = [...new Set(seriesData.map(serie => serie.categoria))];
@@ -30,7 +30,7 @@ const SeriesByCategory = () => {
       
       {/* Renderiza um Carrocel para cada categoria única */}
       {/* {categoriasUnicas.map((categoria) => (
-        <Carrocel key={categoria} data={seriesData} categoria={categoria} titulo={`Séries de ${categoria}`} />
+        <Carrocel key={categoria} data={seriesData} categoria={categoria} titulo={Séries de ${categoria}} />
       ))} */}
     </div>
   );

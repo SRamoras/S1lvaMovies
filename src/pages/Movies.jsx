@@ -3,7 +3,7 @@ import React from 'react';
 import Carrocel from '../Components/Carrocel';
 import moviesData from '../../public/Movies.json';
 import Trailer from '../Components/Openning';
-import video3 from '../Assets/video3.mp4';
+import video3 from '../../Public/Assets/video3.mp4';
 const MoviesByCategory = () => {
   return (
     <div>

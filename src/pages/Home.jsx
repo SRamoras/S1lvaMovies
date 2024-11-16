@@ -1,6 +1,6 @@
 import React from 'react';
 import Trailer from '../Components/Openning';
-import video1 from '../Assets/video1.mp4';
+import video1 from '../../Public/Assets/video1.mp4';
 import './Home.css';
 import Carrocel from '../Components/Carrocel';
 import moviesData from '../../public/Movies.json';

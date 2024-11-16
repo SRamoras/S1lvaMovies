@@ -17,10 +17,11 @@ const SearchResults = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        const basePath = '/S1lvaMovies'; // Base do repositório no GitHub Pages
         const responses = await Promise.all([
-          fetch('/Movies.json'),
-          fetch('/Animes.json'),
-          fetch('/Series.json')
+          fetch(`${basePath}/Movies.json`),
+          fetch(`${basePath}/Animes.json`),
+          fetch(`${basePath}/Series.json`),
         ]);
         const data = await Promise.all(responses.map(res => res.json()));
         const combinedData = data.flat();
@@ -69,15 +70,16 @@ const SearchResults = () => {
   return (
     <div className="container-videos">
       <div className="title-and-filter">
-      <div className="category-label">
-      {categoryFilter && (
-          <div className="category-label2">
-            {categoryFilter}
-            <span onClick={clearCategoryFilter} className="material-icons close-icon">
-              close
-            </span>
-          </div>
-        )}  </div>
+        <div className="category-label">
+          {categoryFilter && (
+            <div className="category-label2">
+              {categoryFilter}
+              <span onClick={clearCategoryFilter} className="material-icons close-icon">
+                close
+              </span>
+            </div>
+          )}
+        </div>
         <div className="sort-filter">
           <SearchBar onSearch={(query) => console.log("Buscando:", query)} />
           <div>
@@ -89,12 +91,11 @@ const SearchResults = () => {
               value={sortOrder}
               onChange={(e) => setSortOrder(e.target.value)}
             >
-   <option value="asc">Alphabetical Order</option>
-   <option value="desc">Reverse Alphabetical Order</option>
+              <option value="asc">Alphabetical Order</option>
+              <option value="desc">Reverse Alphabetical Order</option>
             </select>
           </div>
         </div>
-       
         <div className='line'></div>
       </div>
 

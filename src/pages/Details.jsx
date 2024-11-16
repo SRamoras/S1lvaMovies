@@ -8,7 +8,9 @@ const Details = () => {
   const [details, setDetails] = useState(null);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Altera o fundo do <body> quando o componente é montado e reverte ao desmontar
+  // Base path para arquivos JSON
+  const basePath = "/S1lvaMovies";
+
   useEffect(() => {
     document.body.style.backgroundColor = 'black'; // Define o fundo como preto
 
@@ -20,11 +22,11 @@ const Details = () => {
   useEffect(() => {
     let path;
     if (location.pathname.includes('/Movies/')) {
-      path = '/Movies.json';
+      path = `${basePath}/Movies.json`;
     } else if (location.pathname.includes('/Series/')) {
-      path = '/Series.json';
+      path = `${basePath}/Series.json`;
     } else if (location.pathname.includes('/Animes/')) {
-      path = '/Animes.json';
+      path = `${basePath}/Animes.json`;
     }
 
     fetch(path)
@@ -34,7 +36,7 @@ const Details = () => {
         setDetails(foundItem);
       })
       .catch(error => console.error('Erro ao buscar dados:', error));
-  }, [id, location.pathname]);
+  }, [id, location.pathname, basePath]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,10 +51,6 @@ const Details = () => {
     };
   }, []);
 
-
-
-
-
   const renderMovieDetails = () => {
     if (details && details.tipo === "Movies") {
       return (
@@ -65,19 +63,10 @@ const Details = () => {
     return null;
   };
 
-
-
-
-
-
-
-
   const renderEpisodeDetails = () => {
-    // Certifique-se de que os detalhes foram carregados corretamente
     if (details && (details.tipo === "Series" || details.tipo === "Animes")) {
-      // Usar a imagem fixa definida no nível superior do JSON para todos os episódios
       const imageUrl = details.imagem;
-  
+
       return (
         <div className="episodes-container">
           {details.episodios.map((ep, index) => (
@@ -100,8 +89,6 @@ const Details = () => {
     }
     return null;
   };
-  
-  
 
   if (!details) {
     return <p>Detalhe não encontrado</p>;
