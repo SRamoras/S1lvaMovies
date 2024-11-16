@@ -5,7 +5,7 @@ import RouterComponent from './RouterComponent'; // Certifique-se de criar este 
 
 function App() {
   return (
-    <Router>
+    <Router basename="/S1lvaMovies">
       <RouterComponent />
     </Router>
   );
