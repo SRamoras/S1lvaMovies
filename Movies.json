@@ -7,7 +7,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
         "quality": "Full HD",
         "date": "2008",
-        "categoria": "Ação",
+        "categoria": "Action",
         "episode": "1"
     },
     {
@@ -38,7 +38,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
         "quality": "4K",
         "date": "2019",
-        "categoria": "Ação"
+        "categoria": "Action"
     },
     {
         "id": 5,"tipo": "Movies",
@@ -98,7 +98,7 @@
         "imagem": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg",
         "quality": "HD",
         "date": "2013",
-        "categoria": "Comédia"
+        "categoria": "Comedy"
     },
     {
         "id": 11,"tipo": "Movies",
@@ -118,7 +118,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
         "quality": "Full HD",
         "date": "2018",
-        "categoria": "Ação"
+        "categoria": "Action"
     },
     {
         "id": 13,"tipo": "Movies",
@@ -128,7 +128,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
         "quality": "HD",
         "date": "2000",
-        "categoria": "Ação"
+        "categoria": "Action"
     },
     {
         "id": 14,"tipo": "Movies",
@@ -148,7 +148,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
         "quality": "Full HD",
         "date": "2008",
-        "categoria": "Ação"
+        "categoria": "Action"
     },
     {
         "id": 16,"tipo": "Movies",
@@ -178,7 +178,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
         "quality": "4K",
         "date": "2012",
-        "categoria": "Ação"
+        "categoria": "Action"
     },
     {
         "id": 19,"tipo": "Movies",
@@ -198,7 +198,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
         "quality": "HD",
         "date": "2015",
-        "categoria": "Ação"
+        "categoria": "Action"
     },
     {
         "id": 21,"tipo": "Movies",
@@ -238,7 +238,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/gGBu0hKw9BGddG8RkRAMX7B6NDB.jpg",
         "quality": "4K",
         "date": "2017",
-        "categoria": "Ação"
+        "categoria": "Action"
     },
     {
         "id": 25,"tipo": "Movies",
@@ -248,7 +248,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
         "quality": "HD",
         "date": "2018",
-        "categoria": "Animação"
+        "categoria": "Animation"
     },
     {
         "id": 26,"tipo": "Movies",
@@ -278,7 +278,7 @@
         "imagem": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
         "quality": "HD",
         "date": "1995",
-        "categoria": "Animação"
+        "categoria": "Animation"
     },
     {
         "id": 29,"tipo": "Movies",
@@ -288,7 +288,7 @@
         "imagem": "https://m.media-amazon.com/images/M/MV5BY2E3OWQ5OWYtYTRkMC00NjVjLWIzZDQtNmRmM2ZiYTIyYmYxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "quality": "Full HD",
         "date": "1998",
-        "categoria": "Comédia"
+        "categoria": "Comedy"
     },
     {
         "id": 30,"tipo": "Movies",
@@ -328,7 +328,7 @@
             "imagem": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
             "quality": "Full HD",
             "date": "2001",
-            "categoria": "Animação"
+            "categoria": "Animation"
         },
         {
             "id": 34,"tipo": "Movies",
@@ -338,7 +338,7 @@
             "imagem": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/csiyO6q8rR74pfgJDjwINzhoick.jpg",
             "quality": "Full HD",
             "date": "2019",
-            "categoria": "Animação"
+            "categoria": "Animation"
         },
         {
             "id": 35,"tipo": "Movies",
@@ -348,7 +348,7 @@
             "imagem": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5axGVn1bomdYBHcOvbGyYOHdovE.jpg",
             "quality": "Full HD",
             "date": "2017",
-            "categoria": "Animação"
+            "categoria": "Animation"
         },
         {
             "id": 36,"tipo": "Movies",
@@ -358,7 +358,7 @@
             "imagem": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hOZKUJGN0m717LRSQDxhgABqWrf.jpg",
             "quality": "Full HD",
             "date": "2013",
-            "categoria": "Animação"
+            "categoria": "Animation"
         },
         {
             "id": 37,"tipo": "Movies",
@@ -368,7 +368,7 @@
             "imagem": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/62SAZfLfzhxJWUFJvfIPMw6QUpE.jpg",
             "quality": "Full HD",
             "date": "2015",
-            "categoria": "Animação"
+            "categoria": "Animation"
         },
         {
             "id": 38,"tipo": "Movies",
@@ -378,7 +378,7 @@
             "imagem": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4rxEeTzN1oZPJo1GBoPOnA3NeJv.jpg",
             "quality": "Full HD",
             "date": "2016",
-            "categoria": "Animação"
+            "categoria": "Animation"
         },
         {
             "id": 39,"tipo": "Movies",
@@ -388,7 +388,7 @@
             "imagem": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jyjBSQ7lCS2XolhbLeAH5HhXahY.jpg",
             "quality": "Full HD",
             "date": "2016",
-            "categoria": "Animação"
+            "categoria": "Animation"
         },
         {
             "id": 40,"tipo": "Movies",
@@ -398,7 +398,7 @@
             "imagem": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/spZbO7Ss6U9W5zSHjtH6FvXvCF7.jpg",
             "quality": "Full HD",
             "date": "2010",
-            "categoria": "Animação"
+            "categoria": "Animation"
         },
 
 
@@ -410,7 +410,7 @@
             "imagem": "https://m.media-amazon.com/images/M/MV5BNjk0MzdlZGEtNTRkOC00ZDRiLWJkYjAtMzUzYTRiNzk1YTViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
             "quality": "Full HD",
             "date": "2007",
-            "categoria": "Comédia"
+            "categoria": "Comedy"
         },
         {
             "id": 42,"tipo": "Movies",
@@ -420,7 +420,7 @@
             "imagem": "https://m.media-amazon.com/images/I/71-h8Hm6GNL._AC_UF894,1000_QL80_.jpg",
             "quality": "Full HD",
             "date": "2009",
-            "categoria": "Comédia"
+            "categoria": "Comedy"
         },    {
             "id": 43,"tipo": "Movies",
             "titulo": "Bridesmaids",
@@ -429,7 +429,7 @@
             "imagem": "https://m.media-amazon.com/images/M/MV5BMjAyOTMyMzUxNl5BMl5BanBnXkFtZTcwODI4MzE0NA@@._V1_FMjpg_UX1000_.jpg",
             "quality": "Full HD",
             "date": "2011",
-            "categoria": "Comédia"
+            "categoria": "Comedy"
         },
 
         {
@@ -440,7 +440,7 @@
             "imagem": "https://m.media-amazon.com/images/S/pv-target-images/c21f7d83a550df05cd238934d126a95c779fcd2b881b1332f538102419afe69e.jpg",
             "quality": "Full HD",
             "date": "2008",
-            "categoria": "Comédia"
+            "categoria": "Comedy"
         },
         {
             "id": 45,"tipo": "Movies",
@@ -450,7 +450,7 @@
             "imagem": "https://m.media-amazon.com/images/M/MV5BY2E0ZDg3OTQtYmIzMi00YjU4LWIwMDctN2M5NWI3MzJlYTNjXkEyXkFqcGc@._V1_.jpg",
             "quality": "Full HD",
             "date": "2004",
-            "categoria": "Comédia"
+            "categoria": "Comedy"
         },
         {
             "id": 46,"tipo": "Movies",
@@ -460,7 +460,7 @@
             "imagem": "https://m.media-amazon.com/images/M/MV5BNDE5NjQzMDkzOF5BMl5BanBnXkFtZTcwODI3ODI3MQ@@._V1_.jpg",
             "quality": "Full HD",
             "date": "2008",
-            "categoria": "Comédia"
+            "categoria": "Comedy"
         },
         {
             "id": 47,"tipo": "Movies",
@@ -470,7 +470,7 @@
             "imagem": "https://m.media-amazon.com/images/M/MV5BMTI3MjAwMTE1Nl5BMl5BanBnXkFtZTcwMDM4NzUyMw@@._V1_.jpg",
             "quality": "Full HD",
             "date": "2004",
-            "categoria": "Comédia"
+            "categoria": "Comedy"
         },
         {
             "id": 48,"tipo": "Movies",
@@ -480,7 +480,7 @@
             "imagem": "https://m.media-amazon.com/images/M/MV5BMTg2NjJiODctM2IyMS00MmQ5LWI1YmQtNTBjMTI4M2U2YzA5XkEyXkFqcGc@._V1_.jpg",
             "quality": "Full HD",
             "date": "2012",
-            "categoria": "Comédia"
+            "categoria": "Comedy"
         },{
             "id": 49,"tipo": "Movies",
             "titulo": "Gone Girl",
@@ -616,7 +616,7 @@
                 "imagem": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_FMjpg_UX1000_.jpg",
                 "quality": "Full HD",
                 "date": "2014",
-                "categoria": "Ação"
+                "categoria": "Action"
             } ,  
             {
                 "id": 62,"tipo": "Movies",
@@ -626,7 +626,7 @@
                 "imagem": "https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
                 "quality": "Full HD",
                 "date": "1995",
-                "categoria": "Ação"
+                "categoria": "Action"
             }
    
     
