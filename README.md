@@ -1,6 +1,14 @@
+![SilvaMovies Banner](https://your-banner-image-url.com/banner.png)
+
 # SilvaMovies
 
-SilvaMovies is a website that simulates browsing and watching movies and series. It utilizes **JSON Server** as a mock database, **Vite** as the build tool, and **React** for the user interface.
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![JSON Server](https://img.shields.io/badge/JSON_Server-000000?logo=json&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+SilvaMovies is a web application that simulates browsing and watching movies and series. It utilizes **JSON Server** as a mock database, **Vite** as the build tool, and **React** for the user interface.
 
 ## Table of Contents
 
@@ -14,6 +22,7 @@ SilvaMovies is a website that simulates browsing and watching movies and series.
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ## Prerequisites
 
@@ -33,3 +42,14 @@ First, clone the repository to your local machine using Git:
 ```bash
 git clone https://github.com/SRamoras/S1lvaMovies.git
 cd S1lvaMovies
+```
+
+### 2. Install Dependencies
+Install the necessary dependencies using npm
+```bash
+npm install
+```
+
+
+
+
