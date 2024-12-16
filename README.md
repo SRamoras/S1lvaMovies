@@ -32,10 +32,6 @@ Start the React application using Vite:
 npm run dev
 ```
 
-5. **Access the Application**
-
-    Open your browser and go to [http://localhost:3000](http://localhost:3000) to see Storytime in action!
-
 ## 📄 License
 
 This project is licensed under the [MIT License](./LICENSE).
@@ -43,5 +39,10 @@ This project is licensed under the [MIT License](./LICENSE).
 ## 📫 Contact
 
 For more information, feel free to reach out:
+
+- **LinkedIn:** [Diogo Silva](https://www.linkedin.com/in/diogo-silva-94068613b/)
+- **GitHub:** [SRamoras](https://github.com/SRamoras)
+
+---
 
 
