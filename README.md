@@ -1,4 +1,4 @@
-![SilvaMovies Banner](https://your-banner-image-url.com/banner.png)
+![SilvaMovies Banner](./src/Assets/banner.png)
 
 # SilvaMovies
 
