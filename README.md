@@ -45,11 +45,27 @@ cd S1lvaMovies
 ```
 
 ### 2. Install Dependencies
-Install the necessary dependencies using npm
+Install the necessary dependencies using npm:
 ```bash
 npm install
 ```
 
+### 3. Start the Application
+Start the React application using Vite:
+```bash
+npm run dev
+```
 
+5. **Access the Application**
+
+    Open your browser and go to [http://localhost:3000](http://localhost:3000) to see Storytime in action!
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+## 📫 Contact
+
+For more information, feel free to reach out:
 
 
