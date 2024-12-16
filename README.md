@@ -1,4 +1,4 @@
-![SilvaMovies Banner](./src/Assets/banner.png)
+![SilvaMovies Banner](./public/Assets/banner.png)
 
 # SilvaMovies
 
