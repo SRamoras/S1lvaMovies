@@ -12,7 +12,7 @@
 **SilvaMovies** is a front-end web application built with **React** and **Vite** that simulates browsing and watching movies and series. This project is entirely client-side and does not require any backend server or database. All data is managed using static JSON files.
 ## 🌐 Live Demo
 
-- **Website:** [Storytime Live](https://sramoras.github.io/S1lvaMovies/)
+- **Website:** [S1lvaMovies](https://sramoras.github.io/S1lvaMovies/)
   
 ## Installation
 
